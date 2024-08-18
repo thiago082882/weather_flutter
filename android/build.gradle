@@ -1,3 +1,16 @@
+// build.gradle (em android/)
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.0'
+        classpath 'com.google.gms:google-services:4.2.0'
+    }
+}
+
 allprojects {
     repositories {
         google()
